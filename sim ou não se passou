@@ -1,0 +1,14 @@
+print('Programa para verificar se o aluno passou direto')
+print()
+nome = input('Entre com o nome do aluno: ')
+print()
+nota1 = float(input("Entre com a primeira nota: "))
+print()
+nota2 = float(input("Entre com a segunda nota: "))
+print()
+
+media = (nota1 + nota2)/2
+if media >= 7:
+    print('{0} aprovado com media = {1:4.2f}'.format(nome, media))
+else:
+    print('{0} vai para a prova final com media = {1:4.2f}'.format(nome, media))
